@@ -1,0 +1,219 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cart.css" />
+    <title>SHOP 2 HAND</title>
+    <link
+      <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--------HEADER-------->
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="/index.html">
+              <img src="../images/logo.png" alt="logo" width="250px"
+            /></a>
+          </div>
+          <nav>
+            <ul>
+              <li><a class="a_3" href="../index.html">Home</a></li>
+              <li>
+                <a class="a_3" href="../index.html">Products</a>
+
+                <div class="dropdown">
+                  <ul>
+                    <li>
+                      <a href="../productdropdown/productadidas.html">Adidas</a>
+                    </li>
+                    <li>
+                      <a href="../productdropdown/productbobui.html">BoBui</a>
+                    </li>
+                    <li>
+                      <a href="../productdropdown/productgucci.html">Gucci</a>
+                    </li>
+                    <li>
+                      <a href="../productdropdown/productluonvuituoi.html"
+                        >Luonvuituoi</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a class="a_3" href="../aboutpage/aboutpage3.html">About</a>
+              </li>
+              <li>
+                <a class="a_3" href="../contactpage/Contactpage.html"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a class="a_3" href="../account/acount_2.html">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <img
+            src="../images/shopping-cart-icon-29077-Windows.ico"
+            alt="cart"
+            width="50px"
+            height="50px"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2">
+            <!--<img src="images/col2.png" />-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------END HEADER-------->
+    <!--Checkout-->
+    <div class="row_2">
+      <div class="col-75">
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-50">
+                <h3>BILLING ADDRESS</h3>
+                <br />
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Nguyen Quoc Nam"
+                />
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="nqnam229@gmail.com"
+                />
+                <label for="adr"><i class="77 Xuan Hong"></i> Address</label>
+                <input
+                  type="text"
+                  id="adr"
+                  name="address"
+                  placeholder="77 Xuan Hong"
+                />
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="TP. HCM"
+                />
+
+                <div class="row"></div>
+              </div>
+
+              <div class="col-50">
+                <h3></h3>
+
+                <label for="cname">Phone Number</label>
+                <input
+                  type="text"
+                  id="cname"
+                  name="cardname"
+                  placeholder="+84"
+                />
+                <label for="ccnum">Note</label>
+                <input
+                  type="text"
+                  id="ccnum"
+                  name="cardnumber"
+                  placeholder="Note note note"
+                />
+
+                <div class="row_1">
+                  <form action="">
+                    <input type="radio" name="gender" value="male" /> Thanh Toan
+                    Khi Giao Hang (COD)<br /><br />
+                    <input type="radio" name="gender" value="female" />
+                    Thanh Toan Truc Tiep Bang Tien Mat<br /><br />
+                    <input type="radio" name="gender" value="other" /> Chuyen
+                    Khoan Ngan Hang
+                  </form>
+                </div>
+              </div>
+            </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr" />
+              Shipping address same as billing
+            </label>
+            <div class="col-25">
+              <div class="container">
+                <h4>
+                  Cart
+                  <span class="price" style="color: black">
+                    <i class="fa fa-shopping-cart"></i>
+                    <b>1</b>
+                  </span>
+                </h4>
+                <p class="p_1">
+                  <a class="a_1" href="../detailproducts/detail.html"
+                    >Quan BDX-01</a
+                  >
+                  <span class="price">500000đ</span>
+                </p>
+
+                <hr />
+                <p>
+                  Total
+                  <span class="price" style="color: black"><b>500000đ</b></span>
+                </p>
+              </div>
+            </div>
+            <input type="submit" value="Check!" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!----------------CART PAGE-------->
+
+    <!----------------END CART PAGE-------->
+
+    <!-------------FOOTER----------->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Buy For YourSelf</h3>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Link</h3>
+            <ul>
+              <li><a href="#">Coupons</a></li>
+              <li><a href="#">Blog Post</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Join Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------END FOOTER----------->
+  </body>
+</html>

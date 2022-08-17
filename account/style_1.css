@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.account-page {
+  padding: 50px 0;
+}
+
+.form-container {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.form-container span {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #555;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+}
+
+.form-btn {
+  display: inline-block;
+}
+
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+form .btn:focus {
+  outline: none;
+}
+
+#loginform {
+  left: -300px;
+}
+
+#regform {
+  left: 0;
+}
+
+form a {
+  font-size: 18px;
+}
+
+#Indicator {
+  width: 100px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px);
+  transition: transform 1s;
+}
+
+/* f_bảo mật */
+
+.entry_content_list {
+  list-style: none;
+}
+
+.row ul li {
+  list-style: none;
+}
+
+.row ul li img {
+  padding: 50px;
+  width: 700px;
+  height: auto;
+}
+
+.clearfix {
+  background: #fff;
+  -moz-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.35);
+  margin-bottom: 40px;
+}
+
+.list-categories .clearfix h3 {
+  width: 100%;
+  display: block;
+  background: #faa6a6;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  float: left;
+  outline: none;
+  padding: 15px;
+  margin: 0px;
+}
+
+.new-btn {
+  margin: 0 auto 80px;
+}
+
+.new-btn a {
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 990px;
+  height: 46px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.new-btn a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #ff523b;
+}
